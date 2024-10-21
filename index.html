@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Number Display</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img id="image" src="https://i.pinimg.com/736x/2d/4e/e6/2d4ee69b80e1dbe23d7e9bf0b918f575.jpg" alt="">
+    <h1 class="sliding-text">Nagaland State Lottery Results</h1>
+    <div class="container">
+        <img id="img1" src="nagalot.webp" alt="">
+        <h1>DEAR LOTTERY</h1>
+        <input type="number" id="numberInput" placeholder="" />
+        <button id="submitButton">PRINT</button>
+        <div><button id="mybtn" >1: 00 PM RESULT</button>
+            <button id="mybtn">6: 00 PM RESULT</button>
+            <button id="mybtn">8: 00 PM RESULT</button>
+        </div>
+        <div id="displayNumber" class="display"></div>
+        <div class="randomNumbers" id="randomNumbers"></div>
+        <div class="imageContainer" id="numberImage">
+            <div class="lotteryTicket">
+                <div class="ticketNumber" id="ticketNumber"></div>
+                <div class="ticketLabel"></div>
+            </div>
+        </div>
+        <div class="qr"><img id="qr" src="qr.jpg" alt=""></div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
